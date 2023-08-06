@@ -34,21 +34,27 @@ const HomePage = () => (
         <h2 className="text-3xl mb-5">Our Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           <div className="border border-gray-200">
-            <Image src="/img/OIP.jpg" alt="Project 1" width={50} height={50} />
+            <div className="relative h-48 lg:h-64">
+              <Image src="/img/OIP.jpg" alt="Project 1" layout="fill" objectFit="cover" />
+            </div>
             <div className="p-5">
               <h3 className="text-2xl mb-2">Project 1</h3>
               <p className="text-gray-600">Description of project 1</p>
             </div>
           </div>
           <div className="border border-gray-200">
-            <Image src="/img/OIP.jpg" alt="Project 2" width={50} height={50} />
+            <div className="relative h-48 lg:h-64">
+              <Image src="/img/OIP.jpg" alt="Project 2" layout="fill" objectFit="cover" />
+            </div>
             <div className="p-5">
               <h3 className="text-2xl mb-2">Project 2</h3>
               <p className="text-gray-600">Description of project 2</p>
             </div>
           </div>
           <div className="border border-gray-200">
-            <Image src="/img/OIP.jpg" alt="Project 2" width={50} height={50} />
+            <div className="relative h-48 lg:h-64">
+              <Image src="/img/OIP.jpg" alt="Project 2" layout="fill" objectFit="cover" />
+            </div>
             <div className="p-5">
               <h3 className="text-2xl mb-2">Project 2</h3>
               <p className="text-gray-600">Description of project 2</p>
@@ -56,10 +62,10 @@ const HomePage = () => (
           </div>
         </div>
       </section>
-      <section className="px-5 py-10">
+      {/* <section className="px-5 py-10">
         <h2 className="text-3xl mb-5">About Us</h2>
         <p className="text-gray-600">We have over 40 years of combined experience in major renovations and commercial construction in Edmonton. We’ve worked on many projects and have obtained a wealth of practical knowledge along the way. Our team has a comprehensive understanding of building code requirements and good relationships with experienced and reputable architects, trades, and other professionals to bring your project to successful completion. Our experience allows us to troubleshoot challenges quickly, provide guidance to our clients, and create beautiful, functional, and efficient spaces.</p>
-      </section>
+      </section> */}
       <QuoteSection />
       {/* <section className="px-5 py-10">
         <h2 className="text-3xl mb-5">Contact Us</h2>
