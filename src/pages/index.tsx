@@ -3,6 +3,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import QuoteSection from './components/Quote';
 import ScrollToTop from './components/ScrollToTop';
+import Image from 'next/image';
 
 const HomePage = () => (
   <div>
@@ -33,21 +34,21 @@ const HomePage = () => (
         <h2 className="text-3xl mb-5">Our Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           <div className="border border-gray-200">
-            <img src="/img/OIP.jpg" alt="Project 1" className="w-full" />
+            <Image src="/img/OIP.jpg" alt="Project 1" width={50} height={50} />
             <div className="p-5">
               <h3 className="text-2xl mb-2">Project 1</h3>
               <p className="text-gray-600">Description of project 1</p>
             </div>
           </div>
           <div className="border border-gray-200">
-            <img src="/img/OIP.jpg" alt="Project 2" className="w-full" />
+            <Image src="/img/OIP.jpg" alt="Project 2" width={50} height={50} />
             <div className="p-5">
               <h3 className="text-2xl mb-2">Project 2</h3>
               <p className="text-gray-600">Description of project 2</p>
             </div>
           </div>
           <div className="border border-gray-200">
-            <img src="/img/OIP.jpg" alt="Project 2" className="w-full" />
+            <Image src="/img/OIP.jpg" alt="Project 2" width={50} height={50} />
             <div className="p-5">
               <h3 className="text-2xl mb-2">Project 2</h3>
               <p className="text-gray-600">Description of project 2</p>

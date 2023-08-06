@@ -1,10 +1,11 @@
 import Link from "next/link";
+import Image from 'next/image';
 
 // components/Header.tsx
 const Header = () => (
     <header className="flex items-center justify-between px-5 py-3 bg-gray-800 text-white">
         <div className="flex items-center">
-            <img src="/img/duang.jpg" alt="Company Logo" className="mr-3 w-9" />
+            <Image src="/img/duang.jpg" alt="Company Logo" className="mr-3 w-9" />
             <Link href="/" className="mx-2">Home</Link>
             <Link href="/#services" className="mx-2">Services</Link>
             <Link href="/#projects" className="mx-2">Projects</Link>
