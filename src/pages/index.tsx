@@ -30,7 +30,7 @@ const HomePage = () => (
           </div>
         </div>
       </section>
-      <section id="projects" className="px-5 py-10">
+      <section id="projects" className="px-5 py-10 bg-gray-500 text-gray-800 px-5 py-20 text-center">
         <h2 className="text-3xl mb-5">Our Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           <div className="border border-gray-200">
@@ -39,7 +39,7 @@ const HomePage = () => (
             </div>
             <div className="p-5">
               <h3 className="text-2xl mb-2">Project 1</h3>
-              <p className="text-gray-600">Description of project 1</p>
+              <p className="text-white-600">Description of project 1</p>
             </div>
           </div>
           <div className="border border-gray-200">
@@ -48,7 +48,7 @@ const HomePage = () => (
             </div>
             <div className="p-5">
               <h3 className="text-2xl mb-2">Project 2</h3>
-              <p className="text-gray-600">Description of project 2</p>
+              <p className="text-white-600">Description of project 2</p>
             </div>
           </div>
           <div className="border border-gray-200">
@@ -57,7 +57,7 @@ const HomePage = () => (
             </div>
             <div className="p-5">
               <h3 className="text-2xl mb-2">Project 2</h3>
-              <p className="text-gray-600">Description of project 2</p>
+              <p className="text-white-600">Description of project 2</p>
             </div>
           </div>
         </div>
